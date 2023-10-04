@@ -1,7 +1,7 @@
 
-import { Title } from './components/Title';
-import { Count } from './components/Count';
-import { List } from './components/List';
+import  Title  from './components/Title';
+import  Count  from './components/Count';
+import  List  from './components/List';
 
 const characters =require('./data/characters.json')
 

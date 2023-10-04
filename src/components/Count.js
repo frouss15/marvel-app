@@ -1,4 +1,4 @@
-function Count(characters) {
+function Count({characters}) {
     return ('Nombre de charactères : ' + characters.length)
   }
 
