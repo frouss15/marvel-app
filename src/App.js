@@ -1,7 +1,8 @@
-
+import React from "react";
 import  Title  from './components/Title';
 import  Count  from './components/Count';
 import  List  from './components/List';
+import  Image  from './components/Image';
 
 const characters =require('./data/characters.json')
 
@@ -16,6 +17,7 @@ return (
     <Title></Title>
     <Count characters={characters}></Count>
     <List characters={characters}></List>
+    <Image character={characters[0]}></Image>
   </>
 );
 }

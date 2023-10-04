@@ -1,10 +1,11 @@
-function List({characters}) {
+function List({characters, index}) {
   if(characters.length === 0){
     return ("Il n'y pas de personnages dans la liste.")
   }
   else{
+      const handleOnClick =  (value)
       const characterList = characters.map((character,index)=>(
-      <li key={index}>{character.name}</li>
+      <li key={character.id} onClick={() => handleOnClick(index)}>{character.name}</li>
       ))
       return (
         <div>
