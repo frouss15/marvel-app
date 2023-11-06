@@ -1,27 +1,16 @@
-import React from "react";
-import  Title  from './components/Title';
-import  Count  from './components/Count';
-import  List  from './components/List';
-import  Image  from './components/Image';
+import './style.css';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
-const characters =require('./data/characters.json')
+import routes from './routes';
 
+// Create a router that uses the client side history strategy for
+const router = createBrowserRouter(routes)
 
 function App() {
-return (
-  <>
-    {/* 
-        La propriété id et data-demo sont passées au composant Title grâce au spread operator.
-        La propriété color est définie dans le composant Title
-     */}
-    <Title></Title>
-    <Count characters={characters}></Count>
-    <List characters={characters}></List>
-    <Image character={characters[0]}></Image>
-  </>
-);
+
+  return (
+    <RouterProvider router={router} />
+  );
 }
-
-
 
 export default App;
