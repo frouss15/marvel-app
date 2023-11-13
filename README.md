@@ -12,3 +12,9 @@ npm install
 npm start
 
 L'application est accessible à l'adresse http://localhost:3000
+
+
+## Test unitaire
+
+npm test
+npm run test:coverage
