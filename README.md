@@ -36,7 +36,8 @@ Le projet est composé de 4 pages :
 - About: Page de détail d'un personnage
 - Contact: Page de contact
 
-```
+```mermaid
+sequenceDiagram
 Home-->About;
 Homme-->Contact;
 Homme-->Character;
