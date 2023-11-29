@@ -38,7 +38,7 @@ Le projet est composé de 4 pages :
 
 ```mermaid
   graph TD;
-    Homme-->About;
-    Homme-->Contact;
-    Homme-->Character;
+    Homme-->/about-->About;
+    Homme-->/contact-->Contact;
+    Homme-->/character-->Character;
 ```
