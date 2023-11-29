@@ -1,3 +1,8 @@
+```mermaid
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=frouss15_marvel-app&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=frouss15_marvel-app)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=frouss15_marvel-app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=frouss15_marvel-app)
+
+```
 # Marvel App
 
 ## Installation
