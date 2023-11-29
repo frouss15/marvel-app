@@ -37,8 +37,8 @@ Le projet est composé de 4 pages :
 - Contact: Page de contact
 
 ```mermaid
-sequenceDiagram
-Home-->About;
-Homme-->Contact;
-Homme-->Character;
+  graph TD;
+    Home-->About;
+    Homme-->Contact;
+    Homme-->Character;
 ```
